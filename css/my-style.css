@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* To Change Color OF Form Box Shadow */
+
+.form-control:focus {
+        border-color: #dc3545;
+        box-shadow: 0 0 0 0.2rem #dc3545;
+    } 
+
+/*-------------------------------------------*/
+
+/*---------------- Header -------------------------*/
+
+header{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.layout{
+    height: inherit;
+    background-color: rgba(214, 46, 51 , 0.6);
+    width: 100%;
+}
+
+header h2{ font-size: 60px;}
+header .layout h5{ font-size: 30px;}
+
+@media (max-width: 576px) { 
+    
+    header h2{ font-size: 40px;}
+    header .layout h5{ font-size: 20px;}
+}
+
+.sideMenu_btn{
+    top: 50%;
+    cursor: pointer;
+}
+
+.sideMenu{
+    
+    height: inherit !important;
+    opacity: 1 !important;
+    top: 0;
+    display: none;
+    position: absolute;
+    z-index: 999;
+}
+
+.sideMenu a{
+    text-decoration: none;
+}
+
+.esc-btn{ cursor: pointer;}
+
+.esc-btn:hover, .sideMenu a:hover{
+    color: rgba(214, 46, 51 , 0.6) !important;
+}
+
+/*------------------------- Section 2 ----------------------------*/
+
+.s2-info h3{
+    background-color: rgba(214, 46, 51 , 0.6);
+    padding: 5px;
+    color: white;
+    margin: 0;
+    cursor: pointer;
+}
+
+.s2-info p{
+    background-color: darkgray;
+    padding: 10px;
+    color: white;
+    margin: 0;
+    display: none;
+}
+
+@media (max-width: 576px) { 
+    
+    .s2-info { width: 100% !important;}
+    
+}
+
+/*------------------------ Section 3 ---------------------------*/
+
+.s3 {
+    
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: white;
+}
+
+.days,.hours,.mins,.secs{
+    background-color: darkgray;
+}
+
+/*-------------------------- section 4 -------------------------*/
+
+.social i:hover{
+    background-color:rgba(214, 46, 51 , 0.6) !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
